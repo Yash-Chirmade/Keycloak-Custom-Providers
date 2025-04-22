@@ -1,0 +1,142 @@
+@options
+@packages
+-classpath
+'/home/yashc/.m2/repository/org/keycloak/keycloak-server-spi/22.0.4/keycloak-server-spi-22.0.4.jar:/home/yashc/.m2/repository/org/keycloak/keycloak-server-spi-private/22.0.4/keycloak-server-spi-private-22.0.4.jar:/home/yashc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/home/yashc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/home/yashc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/yashc/.m2/repository/org/keycloak/keycloak-core/22.0.4/keycloak-core-22.0.4.jar:/home/yashc/.m2/repository/org/keycloak/keycloak-common/22.0.4/keycloak-common-22.0.4.jar:/home/yashc/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/home/yashc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/home/yashc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/home/yashc/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar:/home/yashc/.m2/repository/org/keycloak/keycloak-services/22.0.4/keycloak-services-22.0.4.jar:/home/yashc/.m2/repository/jakarta/mail/jakarta.mail-api/2.1.1/jakarta.mail-api-2.1.1.jar:/home/yashc/.m2/repository/org/eclipse/angus/angus-mail/2.0.1/angus-mail-2.0.1.jar:/home/yashc/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar:/home/yashc/.m2/repository/org/twitter4j/twitter4j-core/4.1.2/twitter4j-core-4.1.2.jar:/home/yashc/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/yashc/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0.jar:/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-multipart-provider/6.2.4.Final/resteasy-multipart-provider-6.2.4.Final.jar:/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-core-spi/6.2.4.Final/resteasy-core-spi-6.2.4.Final.jar:/home/yashc/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/yashc/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/yashc/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-core/6.2.4.Final/resteasy-core-6.2.4.Final.jar:/home/yashc/.m2/repository/org/jboss/jandex/2.4.3.Final/jandex-2.4.3.Final.jar:/home/yashc/.m2/repository/com/ibm/async/asyncutil/0.1.0/asyncutil-0.1.0.jar:/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-jaxb-provider/6.2.4.Final/resteasy-jaxb-provider-6.2.4.Final.jar:/home/yashc/.m2/repository/org/glassfish/jaxb/codemodel/4.0.2/codemodel-4.0.2.jar:/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar:/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-jxc/4.0.2/jaxb-jxc-4.0.2.jar:/home/yashc/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar:/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-xjc/4.0.2/jaxb-xjc-4.0.2.jar:/home/yashc/.m2/repository/org/glassfish/jaxb/xsom/4.0.2/xsom-4.0.2.jar:/home/yashc/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/yashc/.m2/repository/com/sun/istack/istack-commons-tools/4.1.2/istack-commons-tools-4.1.2.jar:/home/yashc/.m2/repository/com/sun/xml/bind/external/relaxng-datatype/4.0.2/relaxng-datatype-4.0.2.jar:/home/yashc/.m2/repository/com/sun/xml/bind/external/rngom/4.0.2/rngom-4.0.2.jar:/home/yashc/.m2/repository/org/apache/james/apache-mime4j-dom/0.8.9/apache-mime4j-dom-0.8.9.jar:/home/yashc/.m2/repository/org/apache/james/apache-mime4j-core/0.8.9/apache-mime4j-core-0.8.9.jar:/home/yashc/.m2/repository/org/apache/james/apache-mime4j-storage/0.8.9/apache-mime4j-storage-0.8.9.jar:/home/yashc/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/yashc/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/home/yashc/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/home/yashc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/yashc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/yashc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/yashc/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/yashc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/yashc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/home/yashc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/yashc/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/home/yashc/.m2/repository/com/google/zxing/javase/3.4.0/javase-3.4.0.jar:/home/yashc/.m2/repository/com/google/zxing/core/3.4.0/core-3.4.0.jar:/home/yashc/.m2/repository/com/webauthn4j/webauthn4j-core/0.21.0.RELEASE/webauthn4j-core-0.21.0.RELEASE.jar:/home/yashc/.m2/repository/com/webauthn4j/webauthn4j-util/0.21.0.RELEASE/webauthn4j-util-0.21.0.RELEASE.jar:/home/yashc/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/home/yashc/.m2/repository/com/github/ua-parser/uap-java/1.5.4/uap-java-1.5.4.jar:/home/yashc/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/home/yashc/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/yashc/.m2/repository/org/eclipse/microprofile/openapi/microprofile-openapi-api/3.1.1/microprofile-openapi-api-3.1.1.jar:/home/yashc/.m2/repository/org/keycloak/keycloak-model-jpa/22.0.4/keycloak-model-jpa-22.0.4.jar:/home/yashc/.m2/repository/org/keycloak/keycloak-model-legacy/22.0.4/keycloak-model-legacy-22.0.4.jar:/home/yashc/.m2/repository/org/keycloak/keycloak-model-legacy-private/22.0.4/keycloak-model-legacy-private-22.0.4.jar:/home/yashc/.m2/repository/org/liquibase/liquibase-core/4.20.0/liquibase-core-4.20.0.jar:/home/yashc/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/yashc/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/yashc/.m2/repository/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar:/home/yashc/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/yashc/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/yashc/.m2/repository/org/hibernate/orm/hibernate-core/6.2.7.Final/hibernate-core-6.2.7.Final.jar:/home/yashc/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/yashc/.m2/repository/io/smallrye/jandex/3.0.5/jandex-3.0.5.jar:/home/yashc/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/yashc/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar:/home/yashc/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/yashc/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/home/yashc/.m2/repository/com/github/seancfoley/ipaddress/5.3.3/ipaddress-5.3.3.jar:/home/yashc/.m2/repository/com/maxmind/geoip2/geoip2/4.0.1/geoip2-4.0.1.jar:/home/yashc/.m2/repository/com/maxmind/db/maxmind-db/3.0.0/maxmind-db-3.0.0.jar:/home/yashc/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/yashc/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/home/yashc/.m2/repository/com/vonage/client/7.3.0/client-7.3.0.jar:/home/yashc/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/yashc/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/yashc/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+11
+-sourcepath
+'/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/src/main/java:/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'keycloak-remiges-spi 22.0.4 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'keycloak-remiges-spi 22.0.4 API'
+co.remiges.tech.smsservice
+co.remiges.tech.smsservice.smsgateway
+co.remiges.tech
+co.remiges.tech.ipcheckservice.util
+co.remiges.tech.ipcheckservice
+co.remiges.tech.captchaservice
+co.remiges.tech.emailservice
+co.remiges.tech.usersession
+/home/yashc/.m2/repository/org/keycloak/keycloak-server-spi/22.0.4/keycloak-server-spi-22.0.4.jar = 1696408558000
+/home/yashc/.m2/repository/org/keycloak/keycloak-server-spi-private/22.0.4/keycloak-server-spi-private-22.0.4.jar = 1696408574000
+/home/yashc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar = 1669833653000
+/home/yashc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar = 1669455900000
+/home/yashc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1404583945000
+/home/yashc/.m2/repository/org/keycloak/keycloak-core/22.0.4/keycloak-core-22.0.4.jar = 1696408545000
+/home/yashc/.m2/repository/org/keycloak/keycloak-common/22.0.4/keycloak-common-22.0.4.jar = 1696408533000
+/home/yashc/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar = 1682590051000
+/home/yashc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar = 1685485055000
+/home/yashc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar = 1685489257000
+/home/yashc/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar = 1565190503000
+/home/yashc/.m2/repository/org/keycloak/keycloak-services/22.0.4/keycloak-services-22.0.4.jar = 1696408727000
+/home/yashc/.m2/repository/jakarta/mail/jakarta.mail-api/2.1.1/jakarta.mail-api-2.1.1.jar = 1671800178000
+/home/yashc/.m2/repository/org/eclipse/angus/angus-mail/2.0.1/angus-mail-2.0.1.jar = 1674724584000
+/home/yashc/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar = 1673438780000
+/home/yashc/.m2/repository/org/twitter4j/twitter4j-core/4.1.2/twitter4j-core-4.1.2.jar = 1666836021000
+/home/yashc/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar = 1648723059000
+/home/yashc/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0.jar = 1644502657000
+/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-multipart-provider/6.2.4.Final/resteasy-multipart-provider-6.2.4.Final.jar = 1684203283000
+/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-core-spi/6.2.4.Final/resteasy-core-spi-6.2.4.Final.jar = 1684203059000
+/home/yashc/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar = 1655206218000
+/home/yashc/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar = 1653252067000
+/home/yashc/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar = 1653588099000
+/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-core/6.2.4.Final/resteasy-core-6.2.4.Final.jar = 1684203079000
+/home/yashc/.m2/repository/org/jboss/jandex/2.4.3.Final/jandex-2.4.3.Final.jar = 1656335146000
+/home/yashc/.m2/repository/com/ibm/async/asyncutil/0.1.0/asyncutil-0.1.0.jar = 1525444042000
+/home/yashc/.m2/repository/org/jboss/resteasy/resteasy-jaxb-provider/6.2.4.Final/resteasy-jaxb-provider-6.2.4.Final.jar = 1684203185000
+/home/yashc/.m2/repository/org/glassfish/jaxb/codemodel/4.0.2/codemodel-4.0.2.jar = 1674801387000
+/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar = 1674801390000
+/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-jxc/4.0.2/jaxb-jxc-4.0.2.jar = 1674801381000
+/home/yashc/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar = 1674801382000
+/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-xjc/4.0.2/jaxb-xjc-4.0.2.jar = 1674801378000
+/home/yashc/.m2/repository/org/glassfish/jaxb/xsom/4.0.2/xsom-4.0.2.jar = 1674801382000
+/home/yashc/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar = 1681225637000
+/home/yashc/.m2/repository/com/sun/istack/istack-commons-tools/4.1.2/istack-commons-tools-4.1.2.jar = 1681225633000
+/home/yashc/.m2/repository/com/sun/xml/bind/external/relaxng-datatype/4.0.2/relaxng-datatype-4.0.2.jar = 1674801411000
+/home/yashc/.m2/repository/com/sun/xml/bind/external/rngom/4.0.2/rngom-4.0.2.jar = 1674801406000
+/home/yashc/.m2/repository/org/apache/james/apache-mime4j-dom/0.8.9/apache-mime4j-dom-0.8.9.jar = 1672379789000
+/home/yashc/.m2/repository/org/apache/james/apache-mime4j-core/0.8.9/apache-mime4j-core-0.8.9.jar = 1672379766000
+/home/yashc/.m2/repository/org/apache/james/apache-mime4j-storage/0.8.9/apache-mime4j-storage-0.8.9.jar = 1672379805000
+/home/yashc/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar = 1625881379000
+/home/yashc/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar = 1654708270000
+/home/yashc/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar = 1607961949000
+/home/yashc/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar = 1542650246000
+/home/yashc/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1536694843000
+/home/yashc/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar = 1490936147000
+/home/yashc/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar = 1575313318000
+/home/yashc/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar = 1484780994000
+/home/yashc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar = 1685478841000
+/home/yashc/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar = 1519208663000
+/home/yashc/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar = 1685490331000
+/home/yashc/.m2/repository/com/google/zxing/javase/3.4.0/javase-3.4.0.jar = 1558145109000
+/home/yashc/.m2/repository/com/google/zxing/core/3.4.0/core-3.4.0.jar = 1558145091000
+/home/yashc/.m2/repository/com/webauthn4j/webauthn4j-core/0.21.0.RELEASE/webauthn4j-core-0.21.0.RELEASE.jar = 1677669993000
+/home/yashc/.m2/repository/com/webauthn4j/webauthn4j-util/0.21.0.RELEASE/webauthn4j-util-0.21.0.RELEASE.jar = 1677670035000
+/home/yashc/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar = 1676665530000
+/home/yashc/.m2/repository/com/github/ua-parser/uap-java/1.5.4/uap-java-1.5.4.jar = 1676688811000
+/home/yashc/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar = 1664175164000
+/home/yashc/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar = 1562350217000
+/home/yashc/.m2/repository/org/eclipse/microprofile/openapi/microprofile-openapi-api/3.1.1/microprofile-openapi-api-3.1.1.jar = 1688420181000
+/home/yashc/.m2/repository/org/keycloak/keycloak-model-jpa/22.0.4/keycloak-model-jpa-22.0.4.jar = 1696408909000
+/home/yashc/.m2/repository/org/keycloak/keycloak-model-legacy/22.0.4/keycloak-model-legacy-22.0.4.jar = 1696408887000
+/home/yashc/.m2/repository/org/keycloak/keycloak-model-legacy-private/22.0.4/keycloak-model-legacy-private-22.0.4.jar = 1696408895000
+/home/yashc/.m2/repository/org/liquibase/liquibase-core/4.20.0/liquibase-core-4.20.0.jar = 1678288523000
+/home/yashc/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar = 1536758932000
+/home/yashc/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar = 1504739599000
+/home/yashc/.m2/repository/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar = 1666478315000
+/home/yashc/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1614372051000
+/home/yashc/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar = 1645787726000
+/home/yashc/.m2/repository/org/hibernate/orm/hibernate-core/6.2.7.Final/hibernate-core-6.2.7.Final.jar = 1689880424000
+/home/yashc/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar = 1674747578000
+/home/yashc/.m2/repository/io/smallrye/jandex/3.0.5/jandex-3.0.5.jar = 1669993628000
+/home/yashc/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar = 1571525227000
+/home/yashc/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar = 1665485924000
+/home/yashc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar = 1674801387000
+/home/yashc/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar = 1634410593000
+/home/yashc/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar = 1650059216000
+/home/yashc/.m2/repository/com/github/seancfoley/ipaddress/5.3.3/ipaddress-5.3.3.jar = 1601085365000
+/home/yashc/.m2/repository/com/maxmind/geoip2/geoip2/4.0.1/geoip2-4.0.1.jar = 1677781709000
+/home/yashc/.m2/repository/com/maxmind/db/maxmind-db/3.0.0/maxmind-db-3.0.0.jar = 1670864531000
+/home/yashc/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar = 1503327556000
+/home/yashc/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar = 1675393017000
+/home/yashc/.m2/repository/com/vonage/client/7.3.0/client-7.3.0.jar = 1681484241000
+/home/yashc/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar = 1598616174000
+/home/yashc/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar = 1580117728000
+/home/yashc/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar = 1646083782000
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/src/main/java = 1703410100000
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/target/generated-sources/annotations = 1745339785134
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/constant-values.html = 1745339789084
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/allclasses-index.html = 1745339789135
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/package-search-index.js = 1745339789137
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/index.html = 1745339789121
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/overview-tree.html = 1745339789118
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/element-list = 1745339789048
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/member-search-index.js = 1745339789137
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/script.js = 1745339789168
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/overview-summary.html = 1745339789164
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/search.js = 1745339789169
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/allpackages-index.html = 1745339789136
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/jquery-ui.overrides.css = 1745339789170
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/tag-search-index.js = 1745339789137
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/type-search-index.js = 1745339789137
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/help-doc.html = 1745339789167
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/stylesheet.css = 1745339789168
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/module-search-index.js = 1745339789136
+/home/yashc/Desktop/keycloak-spi-main.working/keycloak-spis/apidocs/index-all.html = 1745339789163
