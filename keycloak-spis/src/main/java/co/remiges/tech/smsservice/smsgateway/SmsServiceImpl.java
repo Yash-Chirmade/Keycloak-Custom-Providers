@@ -56,8 +56,8 @@ public class SmsServiceImpl implements ISmsService {
         // this.apiUrl = config.get("apiUrl"); 
 
 		
-		LOG.info(String.format("SMS Parameters: SenderID<%s>, apiKey<%s>, apiSecret<%s> ttl<%s>",senderId,apiKey,apiSecret,ttl));
-		LOG.info(String.format("SMS Parameters: feedId<%s>, username<%s>, senderId<%s>, password<%s>, apiUrl<%s>",feedId,username,senderId,password,apiUrl));
+		LOG.info(String.format("SMS Parameters: Sms api Url<%s>, apiKey<%s>, apiSecret<%s> ttl<%s>",senderId,apiKey,apiSecret,ttl));
+		LOG.info(String.format("SMS Parameters: feedId<%s>, username<%s>, Sms api Url<%s>, password<%s>, apiUrl<%s>",feedId,username,senderId,password,apiUrl));
 	}
 
 	
