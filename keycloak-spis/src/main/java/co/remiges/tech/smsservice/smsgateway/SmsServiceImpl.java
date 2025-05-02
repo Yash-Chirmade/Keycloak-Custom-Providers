@@ -84,6 +84,7 @@ public void send(String phoneNumber, String message) {
 
         // Optional TLS verification skipping
        if (skipTlsVerification) {
+            LOG.warn("Skipping TLS verification for the HTTP client. This is not recommended for production use.");
             try {
                 SSLContext sslContext = SSLContext.getInstance("TLS");
                 sslContext.init(null, new TrustManager[]{
