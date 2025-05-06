@@ -12,6 +12,7 @@ co/remiges/tech/ipcheckservice/util/IpRangeCheckUtil.class
 co/remiges/tech/emailservice/CustomResetCredentialEmail.class
 co/remiges/tech/smsservice/smsgateway/ISmsService.class
 co/remiges/tech/usersession/UserSessionAuthenticator.class
+co/remiges/tech/smsservice/smsgateway/SmsServiceImpl$1.class
 co/remiges/tech/smsservice/smsgateway/SmsServiceImpl.class
 co/remiges/tech/Constants.class
 co/remiges/tech/emailservice/EmailService$1.class

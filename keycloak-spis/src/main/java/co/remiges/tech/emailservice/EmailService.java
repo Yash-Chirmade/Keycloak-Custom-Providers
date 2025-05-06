@@ -36,7 +36,7 @@ public class EmailService {
             HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
 
             if (response.statusCode() == 200 || response.statusCode() == 202) {
-                LOG.info("Email sent successfully.");
+                LOG.info("Email sent successfully with status code: " + response.statusCode());
                 return new EmailResponse(true, "");
             } else {
                 String errorMessage = "Email failed with status code: " + response.statusCode() + " and error: " + response.body();
@@ -111,7 +111,7 @@ public class EmailService {
 
         // Process response
         if (response.statusCode() == 200 || response.statusCode() == 202) {
-            LOG.info("Email sent successfully.");
+            LOG.info("Email sent successfully with status code: " + response.statusCode());
             return new EmailResponse(true, "");
         } else {
             String errorMessage = "Email failed with status code: " + response.statusCode() + " and error: " + response.body();
