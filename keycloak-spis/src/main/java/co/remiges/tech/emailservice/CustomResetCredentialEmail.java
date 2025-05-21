@@ -35,6 +35,10 @@ public class CustomResetCredentialEmail extends ResetCredentialEmail {
      UserModel user = context.getUser();
      logger.info("User fetched successfully " );
      logger.info("User: " + user);
+     if (user == null) {
+         context.failure(AuthenticationFlowError.INVALID_USER, null);
+         return;
+     }
      AuthenticatorConfigModel config = context.getAuthenticatorConfig();
      AuthenticationSessionModel authenticationSession = context.getAuthenticationSession();
      String username = user.getUsername();
